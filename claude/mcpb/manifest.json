@@ -1,0 +1,43 @@
+{
+  "manifest_version": "0.3",
+  "name": "gulf-ai-deals",
+  "display_name": "Gulf AI Deals",
+  "version": "1.0.0",
+  "description": "Sourced GCC AI deals, real AI agent use cases in Saudi/UAE/GCC, and Arabic-capable AI tools. Read-only, no auth.",
+  "author": {
+    "name": "Gulf AI Deals",
+    "url": "https://gulfaideals.com"
+  },
+  "homepage": "https://gulfaideals.com",
+  "icon": "icon.png",
+  "privacy_policies": [
+    "https://gulfaideals.com/privacy"
+  ],
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://gulfaideals.com/mcp"
+      ]
+    }
+  },
+  "tools": [
+    {
+      "name": "search_deals"
+    },
+    {
+      "name": "search_use_cases"
+    },
+    {
+      "name": "search_tools"
+    },
+    {
+      "name": "get_item"
+    }
+  ],
+  "license": "MIT"
+}

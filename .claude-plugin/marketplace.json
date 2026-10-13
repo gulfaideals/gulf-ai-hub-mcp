@@ -1,0 +1,14 @@
+{
+  "name": "gulf-ai-deals",
+  "owner": {
+    "name": "Gulf AI Deals"
+  },
+  "plugins": [
+    {
+      "name": "gulf-ai-deals",
+      "source": "./",
+      "description": "Sourced GCC AI deals, real AI agent use cases in Saudi/UAE/GCC, and Arabic-capable AI tools. Read-only, no auth.",
+      "version": "1.0.0"
+    }
+  ]
+}

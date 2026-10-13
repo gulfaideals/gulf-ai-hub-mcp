@@ -1,0 +1,11 @@
+{
+  "name": "gulf-ai-deals",
+  "version": "1.0.0",
+  "description": "Sourced GCC AI deals, real AI agent use cases in Saudi/UAE/GCC, and Arabic-capable AI tools. Read-only, no auth.",
+  "mcpServers": {
+    "gulf-ai-deals": {
+      "httpUrl": "https://gulfaideals.com/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
